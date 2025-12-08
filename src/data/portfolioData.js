@@ -1,0 +1,111 @@
+// src/data/portfolioData.js
+
+export const projects = [
+  {
+    id: "skillbridge",
+    name: "SkillBridge – Personalized Learning Roadmap Platform",
+    shortDescription:
+      "Full-stack learning platform that generates personalized roadmaps for frontend, backend, and full-stack developers.",
+    features: [
+      "Secure JWT authentication with protected REST API routes",
+      "Role-based tracks for Frontend, Backend, and Full-Stack developers",
+      "Dynamic roadmap with step states and progress bar",
+      "Step detail pages with curated resources and per-step notes in MongoDB",
+      "Persistent sessions and real-time UI updates from backend APIs",
+    ],
+    techStack: [
+      "React",
+      "Tailwind CSS",
+      "React Router",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "REST API",
+    ],
+    tools: ["VS Code", "Git", "GitHub", "Postman", "npm", "Nodemon"],
+    githubUrl: "https://github.com/18mukeshram/skillbridge",
+    liveUrl: "", // add deployment link
+  },
+  {
+    id: "weather-app",
+    name: "Weather Information Web App",
+    shortDescription:
+      "Responsive weather dashboard showing real-time city-based weather using the OpenWeather REST API.",
+    features: [
+      "City-based live weather search using async/await and Fetch API",
+      "Displays temperature, conditions, humidity, wind speed, and pressure",
+      "Loading spinner and error handling for invalid inputs",
+      "Mobile-first responsive UI with glass-effect card and gradient background",
+    ],
+    techStack: [
+      "HTML5",
+      "Tailwind CSS",
+      "JavaScript (ES6+)",
+      "Fetch API",
+      "OpenWeather API",
+    ],
+    tools: ["VS Code", "Git", "GitHub", "Browser DevTools"],
+    githubUrl: "https://github.com/18mukeshram/weather-api-app",
+    liveUrl: "",
+  },
+  {
+    id: "student-course-management",
+    name: "Student Course Management System (Angular SPA)",
+    shortDescription:
+      "Angular SPA for browsing courses, filtering, and managing student enrollment with CRUD operations.",
+    features: [
+      "Built with Angular standalone components and modern routing",
+      "Dynamic course listing with search and filtering",
+      "Course details with student enrollment add/remove (CRUD)",
+      "Service-based state management and two-way data binding",
+      "Responsive dashboard UI using Tailwind utility classes and gradients",
+    ],
+    techStack: ["Angular", "TypeScript", "Tailwind CSS", "HTML5", "SCSS"],
+    tools: ["Angular CLI", "VS Code", "Git", "GitHub", "Chrome DevTools"],
+    githubUrl: "https://github.com/18mukeshram/student-course-manager",
+    liveUrl: "",
+  },
+];
+
+export const skills = {
+  languages: [
+    "JavaScript (ES6+)",
+    "TypeScript",
+    "Python",
+    "C",
+    "Java",
+    "Kotlin",
+  ],
+  frameworks: ["Angular", "React.js", "Tailwind CSS", "Bootstrap", "SCSS/SASS"],
+  webSkills: [
+    "REST API integration",
+    "Asynchronous programming (async/await)",
+    "Responsive design (mobile-first layouts)",
+    "Single Page Application (SPA) development",
+    "Component-based architecture",
+    "Client-side routing",
+    "State management using services",
+    "Form handling and validation",
+    "UI/UX design with Tailwind utility classes",
+  ],
+  tools: [
+    "VS Code",
+    "Git",
+    "GitHub",
+    "Angular CLI",
+    "Browser Developer Tools",
+    "Postman / Thunder Client",
+    "npm",
+    "Nodemon",
+  ],
+  concepts: [
+    "API integration",
+    "Component communication",
+    "Data binding",
+    "CRUD operations",
+    "SPA routing patterns",
+    "Version control (Git workflow)",
+  ],
+};
