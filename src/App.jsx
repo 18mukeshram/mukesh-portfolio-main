@@ -20,17 +20,17 @@ import {
 function Navbar() {
   return (
     <nav className="sticky top-0 z-30 backdrop-blur bg-slate-950/70 border-b border-white/10">
-      <div className="max-w-5xl mx-auto flex items-center justify-between py-3 px-4">
+      <div className="max-w-5xl mx-auto flex flex-wrap items-center justify-between gap-3 py-3 px-4">
         <div className="flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-full bg-sky-500/15 border border-sky-500/40">
             <FiCode className="text-sky-400" />
           </div>
-          <span className="font-semibold tracking-tight">
+          <span className="font-semibold tracking-tight text-sm sm:text-base">
             Mukesh<span className="text-sky-400">.dev</span>
           </span>
         </div>
 
-        <div className="flex gap-4 text-sm">
+        <div className="flex flex-wrap gap-3 text-xs sm:text-sm">
           <a
             href="#home"
             className="flex items-center gap-1 hover:text-sky-400"
@@ -332,7 +332,7 @@ function ContactSection() {
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
+    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white overflow-x-hidden">
       <Navbar />
       <Hero />
       <main className="max-w-5xl mx-auto">
