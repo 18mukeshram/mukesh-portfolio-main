@@ -26,7 +26,7 @@ export const projects = [
     ],
     tools: ["VS Code", "Git", "GitHub", "Postman", "npm", "Nodemon"],
     githubUrl: "https://github.com/18mukeshram/skillbridge",
-    liveUrl: "", // add deployment link
+    liveUrl: "https://skillbridgeroadmap.netlify.app/",
   },
   {
     id: "weather-app",

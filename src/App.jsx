@@ -291,7 +291,7 @@ function ContactSection() {
           <div>
             <label className="block text-xs mb-1 text-slate-300">Name</label>
             <input
-              name="from_name" // ✅ ADD THIS
+              name="from_name" //
               type="text"
               placeholder="Your name"
               className="w-full rounded-xl bg-slate-900 border border-slate-700 px-3 py-2 text-sm focus:outline-none focus:border-sky-500"
@@ -300,7 +300,7 @@ function ContactSection() {
           <div>
             <label className="block text-xs mb-1 text-slate-300">Email</label>
             <input
-              name="reply_to" // ✅ ADD THIS
+              name="reply_to" //
               type="email"
               placeholder="you@example.com"
               className="w-full rounded-xl bg-slate-900 border border-slate-700 px-3 py-2 text-sm focus:outline-none focus:border-sky-500"
@@ -309,7 +309,7 @@ function ContactSection() {
           <div>
             <label className="block text-xs mb-1 text-slate-300">Message</label>
             <textarea
-              name="message" // ✅ ADD THIS
+              name="message" //
               rows="4"
               placeholder="Tell me about your idea, role, or project…"
               className="w-full rounded-xl bg-slate-900 border border-slate-700 px-3 py-2 text-sm focus:outline-none focus:border-sky-500 resize-none"
