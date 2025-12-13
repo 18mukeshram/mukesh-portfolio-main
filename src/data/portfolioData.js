@@ -25,8 +25,8 @@ export const projects = [
       "REST API",
     ],
     tools: ["VS Code", "Git", "GitHub", "Postman", "npm", "Nodemon"],
-    githubUrl: "https://github.com/18mukeshram/skillbridge",
-    liveUrl: "https://skillbridgeroadmap.netlify.app/",
+    githubCodeUrl: "https://github.com/18mukeshram/skillbridge",
+    ProjectliveUrl: "https://skillbridgeroadmap.netlify.app/",
   },
   {
     id: "weather-app",
