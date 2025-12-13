@@ -118,7 +118,7 @@ function Hero() {
               Contact Me
             </a>
             <a
-              href="/mukesh_main_resume.pdf"
+              href="/mukesh_main_resume(1).pdf"
               target="_blank"
               className="px-4 py-2 rounded-full border border-emerald-500/70 text-sm hover:bg-emerald-500/10"
             >
