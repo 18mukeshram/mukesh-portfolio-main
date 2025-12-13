@@ -26,7 +26,7 @@ export const projects = [
     ],
     tools: ["VS Code", "Git", "GitHub", "Postman", "npm", "Nodemon"],
     githubCodeUrl: "https://github.com/18mukeshram/skillbridge",
-    ProjectliveUrl: "https://skillbridgeroadmap.netlify.app/",
+    ProjectliveUrl: "https://skillbridge-silk.vercel.app/",
   },
   {
     id: "weather-app",
