@@ -25,8 +25,8 @@ export const projects = [
       "REST API",
     ],
     tools: ["VS Code", "Git", "GitHub", "Postman", "npm", "Nodemon"],
-    githubCodeUrl: "https://github.com/18mukeshram/skillbridge",
-    ProjectliveUrl: "https://skillbridge-silk.vercel.app/",
+    githubUrl: "https://github.com/18mukeshram/skillbridge",
+    liveUrl: "https://skillbridge-silk.vercel.app/",
   },
   {
     id: "weather-app",
