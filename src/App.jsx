@@ -127,7 +127,7 @@ function Hero() {
             </a>
 
             <a
-              href="https://linkedin.com/in/sai-mukesh-ram-bellamkonda"
+              href="https://www.linkedin.com/in/bellamkonda-sai-mukesh-ram-60619731b/"
               target="_blank"
               rel="noreferrer"
               className="px-4 py-2 rounded-full border border-slate-500 text-sm hover:border-sky-400"
@@ -254,12 +254,12 @@ function ContactSection() {
                 LinkedIn
               </p>
               <a
-                href="https://linkedin.com/in/sai-mukesh-ram-bellamkonda"
+                href="https://www.linkedin.com/in/bellamkonda-sai-mukesh-ram-60619731b/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-sm text-sky-400"
               >
-                /sai-mukesh-ram-bellamkonda
+                /bellamkonda-sai-mukesh-ram-60619731b
               </a>
             </div>
           </div>
