@@ -149,21 +149,27 @@ function Hero() {
         <div className="flex-1 max-w-sm w-full">
           <div className="rounded-3xl border border-white/10 bg-slate-900/80 p-5 shadow-xl shadow-sky-500/20">
             <p className="text-xs text-sky-300 mb-2">Highlight Project</p>
+
             <h2 className="text-lg font-semibold mb-2">
-              SkillBridge – Personalized Learning Roadmaps
+              SkillBridge – AI-Powered Learning Roadmap Platform
             </h2>
+
             <p className="text-xs text-slate-300 mb-3">
-              Full-stack app that generates tailored learning plans, tracks
-              progress, and persists notes for developers.
+              A full-stack learning platform featuring a secure, context-aware
+              AI assistant that helps users understand concepts, track progress,
+              and decide what to learn next.
             </p>
+
             <ul className="text-xs text-slate-300 space-y-1 mb-4 list-disc list-inside">
-              <li>JWT auth & protected REST APIs</li>
-              <li>Dynamic roadmap + progress tracking</li>
-              <li>Role-based tracks for FE / BE / FS</li>
+              <li>AI-assisted learning with step-aware explanations</li>
+              <li>JWT authentication & protected REST APIs</li>
+              <li>Dynamic roadmaps with progress tracking</li>
+              <li>Role-based tracks for Frontend / Backend / Full-Stack</li>
             </ul>
+
             <p className="text-[11px] text-slate-400">
-              Built end-to-end: UI, backend, database models, and debugging
-              real-world issues.
+              Built end-to-end: frontend UI, backend APIs, database models,
+              authentication, AI integration, and production debugging.
             </p>
           </div>
         </div>

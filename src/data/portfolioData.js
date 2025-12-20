@@ -3,7 +3,7 @@
 export const projects = [
   {
     id: "skillbridge",
-    name: "SkillBridge – Personalized Learning Roadmap Platform",
+    name: "SkillBridge – ✨ AI-Powered Personalized Learning Roadmap Platform",
     shortDescription:
       "A full-stack personalized learning roadmap platform with a secure, context-aware AI assistant that helps users understand concepts, track progress, and plan what to learn next.",
     features: [
@@ -24,8 +24,9 @@ export const projects = [
       "Express.js",
       "MongoDB",
       "Mongoose",
-      "JWT",
-      "REST API",
+      "JWT Authentication",
+      "REST APIs",
+      "AI Integration (LLM API)",
     ],
     tools: ["VS Code", "Git", "GitHub", "Postman", "npm", "Nodemon"],
     githubUrl: "https://github.com/18mukeshram/skillbridge",
