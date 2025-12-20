@@ -5,13 +5,16 @@ export const projects = [
     id: "skillbridge",
     name: "SkillBridge – Personalized Learning Roadmap Platform",
     shortDescription:
-      "Full-stack learning platform that generates personalized roadmaps for frontend, backend, and full-stack developers.",
+      "A full-stack personalized learning roadmap platform with a secure, context-aware AI assistant that helps users understand concepts, track progress, and plan what to learn next.",
     features: [
       "Secure JWT authentication with protected REST API routes",
-      "Role-based tracks for Frontend, Backend, and Full-Stack developers",
-      "Dynamic roadmap with step states and progress bar",
-      "Step detail pages with curated resources and per-step notes in MongoDB",
-      "Persistent sessions and real-time UI updates from backend APIs",
+      "Role-based learning paths for Frontend, Backend, and Full-Stack developers",
+      "Dynamic roadmap generation with step-wise progress tracking",
+      "AI-powered learning assistant integrated into step detail pages",
+      "Context-aware AI responses using step title, focus area, topics, and outcomes",
+      "Beginner-friendly explanations enforced through structured prompt design",
+      "User notes system persisted in MongoDB and loaded dynamically",
+      "Graceful AI error handling, loading states, and demo-mode fallbacks",
     ],
     techStack: [
       "React",
