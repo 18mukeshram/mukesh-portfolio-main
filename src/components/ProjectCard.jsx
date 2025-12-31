@@ -2,8 +2,26 @@
 import { TechIcon } from "./TechIcon";
 
 export default function ProjectCard({ project }) {
+  const isAdvanced = project.badges?.includes("Advanced Project");
   return (
-    <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900/80 via-slate-900/60 to-slate-800/80 p-6 shadow-lg hover:-translate-y-1 hover:shadow-xl transition">
+    <div
+      className={`
+        rounded-2xl p-6 transition
+        ${
+          isAdvanced
+            ? "border border-sky-400/40 bg-gradient-to-br from-slate-900 via-slate-900/70 to-sky-900/20 shadow-xl shadow-sky-500/20"
+            : "border border-white/10 bg-gradient-to-br from-slate-900/80 via-slate-900/60 to-slate-800/80 shadow-lg"
+        }
+        hover:-translate-y-1 hover:shadow-xl
+      `}
+    >
+      {/* Advanced label */}
+      {isAdvanced && (
+        <p className="text-xs uppercase tracking-[0.2em] text-sky-400 mb-2">
+          Advanced Engineering Project
+        </p>
+      )}
+
       {project.badges && (
         <div className="flex flex-wrap gap-2 mb-3">
           {project.badges.map((badge) => (
