@@ -4,16 +4,6 @@ import { TechIcon } from "./TechIcon";
 export default function ProjectCard({ project }) {
   return (
     <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900/80 via-slate-900/60 to-slate-800/80 p-6 shadow-lg hover:-translate-y-1 hover:shadow-xl transition">
-      <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
-      <p className="text-sm text-slate-300 mb-4">{project.shortDescription}</p>
-
-      <h4 className="text-sm font-semibold mb-1">Key Features</h4>
-      <ul className="list-disc list-inside text-sm text-slate-300 space-y-1 mb-4">
-        {project.features.map((feature) => (
-          <li key={feature}>{feature}</li>
-        ))}
-      </ul>
-
       {project.badges && (
         <div className="flex flex-wrap gap-2 mb-3">
           {project.badges.map((badge) => (
@@ -28,6 +18,15 @@ export default function ProjectCard({ project }) {
           ))}
         </div>
       )}
+      <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
+      <p className="text-sm text-slate-300 mb-4">{project.shortDescription}</p>
+
+      <h4 className="text-sm font-semibold mb-1">Key Features</h4>
+      <ul className="list-disc list-inside text-sm text-slate-300 space-y-1 mb-4">
+        {project.features.map((feature) => (
+          <li key={feature}>{feature}</li>
+        ))}
+      </ul>
 
       <div className="space-y-2 mb-4">
         <h4 className="text-sm font-semibold">Tech Stack</h4>
