@@ -34,15 +34,14 @@ export const projects = [
   },
   {
     id: "ai-pipeline-builder",
-    title: "Node-Based AI Pipeline Builder",
-    subtitle: "Graph-based system for building and validating AI workflows",
-    description:
-      "An advanced UI-engineering project focused on building a visual, node-based pipeline system using graph abstractions, complex state management, and backend validation of directed acyclic graphs (DAGs).",
+    name: "Node-Based AI Pipeline Builder",
+    shortDescription:
+      "A visual, node-based system for building and validating AI workflows using graph abstractions, advanced state management, and backend DAG validation.",
 
     features: [
       "Custom node-based UI built with React Flow",
       "Dynamic text nodes with auto-resizing inputs and {{variable}} parsing",
-      "Complex state management using Zustand with event-driven updates",
+      "Advanced state management using Zustand with event-driven updates",
       "Resolved React Flow render-loop issues through store ownership patterns",
       "FastAPI backend for pipeline validation and graph analysis",
       "Cycle detection using DAG algorithms (Kahn’s Algorithm)",
@@ -61,10 +60,16 @@ export const projects = [
       "Graph Algorithms (DAG)",
     ],
 
-    tags: ["Advanced UI Engineering", "Graph Systems"],
+    tools: [
+      "VS Code",
+      "Git",
+      "GitHub",
+      "Postman",
+      "Python virtual environments (venv)",
+    ],
 
-    github: "https://github.com/18mukeshram/<REPO_NAME>",
-    live: null, // correct to keep null if no live demo
+    githubUrl: "https://github.com/18mukeshram/<REPO_NAME>",
+    liveUrl: "",
   },
   {
     id: "weather-app",
