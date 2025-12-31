@@ -36,7 +36,7 @@ export const projects = [
     id: "ai-pipeline-builder",
     name: "Node-Based AI Pipeline Builder",
     shortDescription:
-      "A visual, node-based system for building and validating AI workflows using graph abstractions, advanced state management, and backend DAG validation.",
+      "A node-based visual system for building and validating AI pipelines, focusing on graph abstractions, advanced state management, and backend DAG validation.",
 
     features: [
       "Custom node-based UI built with React Flow",
@@ -48,7 +48,7 @@ export const projects = [
       "Clean frontend-backend API contracts with proper CORS configuration",
       "SaaS-grade UI polish with centralized Tailwind styling",
     ],
-
+    badges: ["Advanced Project", "Graph Systems", "AI Tooling"],
     techStack: [
       "React",
       "React Flow",
