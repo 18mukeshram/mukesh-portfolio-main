@@ -21,6 +21,11 @@ export default function ToolsSection({ tools }) {
       items: ["Angular CLI", "npm", "Nodemon"],
     },
     {
+      title: "Backend & Runtime",
+      description: "Backend services, APIs, and runtime environments.",
+      items: ["FastAPI (Python)", "Python virtual environments (venv)"],
+    },
+    {
       title: "API & Debugging",
       description: "Inspecting requests and debugging backends.",
       items: ["Postman / Thunder Client"],

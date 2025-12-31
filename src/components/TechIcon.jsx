@@ -13,11 +13,14 @@ import {
   SiGithub,
   SiPostman,
   SiNpm,
+  SiPython,
+  SiFastapi,
 } from "react-icons/si";
 
 const iconMap = {
   React: SiReact,
   "React.js": SiReact,
+  "React Flow": SiReact, // closest semantic icon
   Angular: SiAngular,
   "Tailwind CSS": SiTailwindcss,
   "JavaScript (ES6+)": SiJavascript,
@@ -33,6 +36,8 @@ const iconMap = {
   Postman: SiPostman,
   "Postman / Thunder Client": SiPostman,
   npm: SiNpm,
+  Python: SiPython,
+  "FastAPI (Python)": SiFastapi,
   // "VS Code":  no icon for now – label will still show
 };
 
