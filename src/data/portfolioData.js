@@ -33,6 +33,40 @@ export const projects = [
     liveUrl: "https://skillbridge-silk.vercel.app/",
   },
   {
+    id: "ai-pipeline-builder",
+    title: "Node-Based AI Pipeline Builder",
+    subtitle: "Graph-based system for building and validating AI workflows",
+    description:
+      "An advanced UI-engineering project focused on building a visual, node-based pipeline system using graph abstractions, complex state management, and backend validation of directed acyclic graphs (DAGs).",
+
+    features: [
+      "Custom node-based UI built with React Flow",
+      "Dynamic text nodes with auto-resizing inputs and {{variable}} parsing",
+      "Complex state management using Zustand with event-driven updates",
+      "Resolved React Flow render-loop issues through store ownership patterns",
+      "FastAPI backend for pipeline validation and graph analysis",
+      "Cycle detection using DAG algorithms (Kahn’s Algorithm)",
+      "Clean frontend-backend API contracts with proper CORS configuration",
+      "SaaS-grade UI polish with centralized Tailwind styling",
+    ],
+
+    techStack: [
+      "React",
+      "React Flow",
+      "Zustand",
+      "Tailwind CSS",
+      "FastAPI",
+      "Python",
+      "REST APIs",
+      "Graph Algorithms (DAG)",
+    ],
+
+    tags: ["Advanced UI Engineering", "Graph Systems"],
+
+    github: "https://github.com/18mukeshram/<REPO_NAME>",
+    live: null, // correct to keep null if no live demo
+  },
+  {
     id: "weather-app",
     name: "Weather Information Web App",
     shortDescription:
@@ -82,7 +116,17 @@ export const skills = {
     "Java",
     "Kotlin",
   ],
-  frameworks: ["Angular", "React.js", "Tailwind CSS", "Bootstrap", "SCSS/SASS"],
+
+  frameworks: [
+    "React.js",
+    "Angular",
+    "React Flow",
+    "Tailwind CSS",
+    "Bootstrap",
+    "SCSS / SASS",
+    "FastAPI (Python)",
+  ],
+
   webSkills: [
     "REST API integration",
     "Asynchronous programming (async/await)",
@@ -90,10 +134,13 @@ export const skills = {
     "Single Page Application (SPA) development",
     "Component-based architecture",
     "Client-side routing",
-    "State management using services",
+    "State management (Zustand, services)",
+    "Event-driven state updates",
+    "Render optimization & avoiding render loops",
     "Form handling and validation",
     "UI/UX design with Tailwind utility classes",
   ],
+
   tools: [
     "VS Code",
     "Git",
@@ -103,13 +150,18 @@ export const skills = {
     "Postman / Thunder Client",
     "npm",
     "Nodemon",
+    "Python virtual environments (venv)",
   ],
+
   concepts: [
     "API integration",
     "Component communication",
-    "Data binding",
+    "Unidirectional data flow",
+    "Controlled vs uncontrolled components",
     "CRUD operations",
     "SPA routing patterns",
+    "Graph algorithms (DAG detection, cycle detection)",
+    "CORS configuration & frontend-backend integration",
     "Version control (Git workflow)",
   ],
 };

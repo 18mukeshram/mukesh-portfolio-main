@@ -14,6 +14,21 @@ export default function ProjectCard({ project }) {
         ))}
       </ul>
 
+      {project.badges && (
+        <div className="flex flex-wrap gap-2 mb-3">
+          {project.badges.map((badge) => (
+            <span
+              key={badge}
+              className="text-[10px] px-2 py-1 rounded-full
+                   bg-indigo-500/10 text-indigo-300
+                   border border-indigo-500/20"
+            >
+              {badge}
+            </span>
+          ))}
+        </div>
+      )}
+
       <div className="space-y-2 mb-4">
         <h4 className="text-sm font-semibold">Tech Stack</h4>
         <div className="flex flex-wrap gap-2">
